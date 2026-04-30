@@ -1,8 +1,7 @@
-my_text = "Hello Surya"
-character_count = 0 # Start counting from zero
+my_text = "Hello Vershith"
+character_count = 0 
 
-# A string is just a train of characters. The 'for' loop visits each train car.
 for letter in my_text:
-    character_count = character_count + 1 # Add 1 for every character we visit
+    character_count = character_count + 1 
 
 print("Total number of characters:", character_count)
