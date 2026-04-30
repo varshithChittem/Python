@@ -1,0 +1,9 @@
+import datetime
+import zoneinfo
+
+india_timezone = zoneinfo.ZoneInfo("Asia/Kolkata")
+
+current_time_in_india = datetime.datetime.now(india_timezone)
+
+print("The current time is:")
+print(current_time_in_india)
