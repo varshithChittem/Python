@@ -1,0 +1,5 @@
+names=["yashwanth","varshith","mithra","vijay","shiva"]
+marks=[[66,40,30],[20,30,40],[56,23,45],[56,20,30],[56,33,22]]
+for i in range(5):
+    a=sum(marks[i])//3
+    print("{}.{} has scored{}".format(i+1,names[i],a))
