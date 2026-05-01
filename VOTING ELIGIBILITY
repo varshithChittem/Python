@@ -1,0 +1,10 @@
+age=int(input("enter your age:"))
+b=input("enter your gender(male/female):").lower()
+if age<18:
+    print("not eligible to vote")
+elif age>=60:
+    print("eligible to vote")
+elif age>=30 and gender=="male":
+    print("eligible to vote")
+else:
+    print("not eligible to vote based on provided criteria")
