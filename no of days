@@ -1,0 +1,4 @@
+from datetime import date
+a=date(2005,10,05)
+b=date(2026,5,1)
+print("no of days varshith lived:",b-a
